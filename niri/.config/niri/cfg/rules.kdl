@@ -30,6 +30,11 @@ window-rule {
 }
 
 window-rule {
+    match app-id="darktable"
+    open-maximized true
+}
+
+window-rule {
    match app-id="Pinentry-gtk"
    open-floating true
    open-focused true
