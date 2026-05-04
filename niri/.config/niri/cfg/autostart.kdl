@@ -11,7 +11,8 @@
 spawn-at-startup "qs" "-c" "noctalia-shell"
 
 // TODO: see how to use noctalia for this...
-spawn-at-startup "swayidle" "-w" "timeout" "601" "niri msg action power-off-monitors" "timeout" "600" "swaylock -f" "before-sleep" "swaylock -f"
+// spawn-at-startup "swayidle" "-w" "timeout" "601" "niri msg action power-off-monitors" "timeout" "600" "swaylock -f" "before-sleep" "swaylock -f"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &"
 spawn-at-startup "obsidian"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
