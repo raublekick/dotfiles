@@ -30,6 +30,21 @@ window-rule {
 }
 
 window-rule {
+    match app-id="Zoom" title=".*menu.*"
+    open-floating true
+    min-width 250
+    open-focused true
+}
+
+window-rule {
+    match app-id="Zoom" title="Zoom Workplace"
+    open-floating true
+    min-width 250
+    open-focused true
+}
+
+
+window-rule {
     match app-id="darktable"
     open-maximized true
 }

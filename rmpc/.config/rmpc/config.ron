@@ -173,7 +173,7 @@
                                     pane: Split(
                                         direction: Horizontal,
                                         panes: [
-                                            // (size: "40%", pane: Pane(AlbumArt)),
+                                            (size: "40%", pane: Pane(AlbumArt)),
                                             (size: "100%", pane: Pane(Cava))
                                         ]
                                     )
