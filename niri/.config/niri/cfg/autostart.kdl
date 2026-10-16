@@ -9,7 +9,8 @@
 // This line starts waybar, a commonly used bar for Wayland compositors.
 // spawn-at-startup "waybar"
 // force gtk3 theme
-spawn-at-startup "env" "QT_QPA_PLATFORMTHEME=gtk3" "qs" "-c" "noctalia-shell"
+// spawn-at-startup "env" "QT_QPA_PLATFORMTHEME=gtk3" "qs" "-c" "noctalia-shell"
+spawn-at-startup "noctalia"
 // spawn-at-startup "qs" "-c" "noctalia-shell"
 
 // TODO: see how to use noctalia for this...

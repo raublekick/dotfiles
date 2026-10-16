@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export CLAUD_CODE_OAUTH_TOKEN:sk\x2dant\x2doat01\x2df1ZHSEn\x2dI3iA5xd_w1_GDXofSlNS3gXcDPfq97zwUyrEuJ2b_LJGP9NjPf9vdem8CkTGOJxa2Af5CH2DivWHrw\x2dyaFXYwAA
 SETUVAR --export DOTNET_ROOT:/home/jaraub/\x2edotnet
 SETUVAR --export JAVA_AWT_WM_NONREPARENTING:1
 SETUVAR --export RUSTICL_ENABLE:radeonsi
@@ -13,7 +14,7 @@ SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_f
 SETUVAR _fisher_plugins:jorgebucaran/nvm\x2efish\x1eedc/bass\x1epatrickf1/fzf\x2efish\x1ethernstig/fish\x2dssh\x2dagent
 SETUVAR _fisher_thernstig_2F_fish_2D_ssh_2D_agent_files:\x7e/\x2econfig/fish/functions/_ssh_agent_is_started\x2efish\x1e\x7e/\x2econfig/fish/functions/_ssh_agent_start\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish_ssh_agent\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
-SETUVAR fish_user_paths:/home/jaraub/scripts/\x1e/usr/share/dotnet\x1e/home/jaraub/\x2edotnet/tools\x1e/home/jaraub/\x2edotnet
+SETUVAR fish_user_paths:/home/jaraub/\x2elocal/bin\x1e/home/jaraub/scripts/\x1e/usr/share/dotnet\x1e/home/jaraub/\x2edotnet/tools\x1e/home/jaraub/\x2edotnet
 SETUVAR nvm_default_version:lts
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_check_for_new_release:false
@@ -40,6 +41,7 @@ SETUVAR pure_color_mute:brblack
 SETUVAR pure_color_nixdevshell_prefix:pure_color_info
 SETUVAR pure_color_nixdevshell_symbol:pure_color_mute
 SETUVAR pure_color_normal:normal
+SETUVAR pure_color_prefix_private_prompt:pure_color_danger
 SETUVAR pure_color_prefix_root_prompt:pure_color_danger
 SETUVAR pure_color_primary:blue
 SETUVAR pure_color_prompt_on_error:pure_color_danger
@@ -65,6 +67,7 @@ SETUVAR pure_shorten_window_title_current_directory_length:0
 SETUVAR pure_show_exit_status:false
 SETUVAR pure_show_jobs:false
 SETUVAR pure_show_numbered_git_indicator:false
+SETUVAR pure_show_prefix_private_prompt:false
 SETUVAR pure_show_prefix_root_prompt:false
 SETUVAR pure_show_subsecond_command_duration:false
 SETUVAR pure_show_system_time:false
@@ -78,6 +81,7 @@ SETUVAR pure_symbol_git_unpulled_commits:\u21e3
 SETUVAR pure_symbol_git_unpushed_commits:\u21e1
 SETUVAR pure_symbol_k8s_prefix:\u2638
 SETUVAR pure_symbol_nixdevshell_prefix:\u2744\ufe0f
+SETUVAR pure_symbol_prefix_private_prompt:\x21
 SETUVAR pure_symbol_prefix_root_prompt:\x23
 SETUVAR pure_symbol_prompt:\u276f
 SETUVAR pure_symbol_reverse_prompt:\u276e
